@@ -1,0 +1,22 @@
+plugins/modules/ironware_command.py validate-modules:doc-default-does-not-match-spec
+plugins/modules/ironware_command.py validate-modules:doc-missing-type
+plugins/modules/ironware_command.py validate-modules:nonexistent-parameter-documented
+plugins/modules/ironware_command.py validate-modules:parameter-type-not-in-doc
+plugins/modules/ironware_config.py validate-modules:doc-default-does-not-match-spec
+plugins/modules/ironware_config.py validate-modules:doc-missing-type
+plugins/modules/ironware_config.py validate-modules:nonexistent-parameter-documented
+plugins/modules/ironware_config.py validate-modules:parameter-type-not-in-doc
+plugins/modules/ironware_facts.py validate-modules:doc-default-does-not-match-spec
+plugins/modules/ironware_facts.py validate-modules:nonexistent-parameter-documented
+plugins/modules/ironware_facts.py validate-modules:parameter-type-not-in-doc
+plugins/action/ironware.py action-plugin-docs # base class for deprecated network platform modules using `connection: local`
+plugins/doc_fragments/ironware.py future-import-boilerplate
+plugins/doc_fragments/ironware.py metaclass-boilerplate
+tests/unit/mock/path.py future-import-boilerplate
+tests/unit/mock/path.py metaclass-boilerplate
+tests/unit/mock/yaml_helper.py future-import-boilerplate
+tests/unit/mock/yaml_helper.py metaclass-boilerplate
+tests/unit/modules/conftest.py future-import-boilerplate
+tests/unit/modules/conftest.py metaclass-boilerplate
+tests/unit/modules/utils.py future-import-boilerplate
+tests/unit/modules/utils.py metaclass-boilerplate
